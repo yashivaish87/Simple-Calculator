@@ -10,7 +10,7 @@ function calculate() {
         Display.value = result;
     }
     catch (error) {
-        alert("Invalid")
+        alert("Invalid");
     }
 }
 
@@ -24,3 +24,18 @@ function backspace() {
 function addPercent() {
     Display.value += "%";
 }
+document.addEventListener('keydown', function(event) {
+    const key = event.key;
+
+    if (key === 'Backspace') {
+        backspace();
+    } else if (key === 'Enter' || key === '=') {
+        calculate();
+    } else if (key === 'Escape') {
+        clearDisplay();
+    } else if (key === '%') {
+        addPercent();
+    } else if ((key >= '0' && key <= '9') || key === '.' || key === '+' || key === '-' || key === '*' || key === '/') {
+        display(key);
+    }
+});
