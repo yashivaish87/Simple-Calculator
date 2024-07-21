@@ -43,7 +43,7 @@ To run the calculator locally, follow these steps:
 
 - **Numeric Buttons:** Click on the numeric buttons (0-9) to input numbers.
 - **Operation Buttons:** Use the operation buttons (+, -, *, /) to perform calculations.
-- **Backspace button:**Click the `⌫` button to delete last input character.
+- **Backspace button:** Click the `⌫` button to delete last input character.
 - **Decimal Button:** Click the `.` button to decimal after numbers.
 - **Equal Button:** Click the `=` button to display the result of the calculation.
 - **Clear Button:** Click the `Clr` button to clear the current input and start a new calculation.
