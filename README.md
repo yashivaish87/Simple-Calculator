@@ -18,7 +18,7 @@ A simple, responsive calculator  built using HTML, CSS, and JavaScript. This cal
 
 ## Demo
 
-You can try out the live demo [here](https://yashivaish87.github.io/Simple-Calculator/). *(Add link to your live demo if available)*
+You can try out the live demo [here](https://yashivaish87.github.io/Simple-Calculator/).
 
 ## Installation
 
