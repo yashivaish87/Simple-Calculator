@@ -12,7 +12,9 @@ A simple, responsive calculator  built using HTML, CSS, and JavaScript. This cal
 
 ##
 
-![Simple-Calculator](calci.png)
+<p align="center">
+  <img src="calci.png" alt="Simple-Calculator" />
+</p>
 
 ## Demo
 
